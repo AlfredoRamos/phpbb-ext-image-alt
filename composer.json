@@ -1,0 +1,38 @@
+{
+	"name": "alfredoramos/imagealt",
+	"type": "phpbb-extension",
+	"description": "Image Alternate Text extension for phpBB",
+	"homepage": "https://github.com/AlfredoRamos/phpbb-ext-image-alt",
+	"version": "0.1.0-dev",
+	"time": "2019-07-31",
+	"keywords": ["phpbb", "extension", "image", "alternate-text"],
+	"license": "GPL-2.0-only",
+	"authors": [
+		{
+			"name": "Alfredo Ramos",
+			"email": "alfredo.ramos@yandex.com",
+			"homepage": "https://github.com/AlfredoRamos",
+			"role": "Lead Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.6",
+		"composer/installers": "^1.6.0"
+	},
+	"require-dev": {
+		"phing/phing": "^2.16.0",
+		"pear/archive_tar": "^1.4.0"
+	},
+	"extra": {
+		"display-name": "Image Alternate Text",
+		"soft-require": {
+			"phpbb/phpbb": "~3.2.0"
+		},
+		"version-check": {
+			"host": "alfredoramos.github.io",
+			"directory": "/phpbb-extensions",
+			"filename": "image-alt.json",
+			"ssl": true
+		}
+	}
+}

@@ -1,0 +1,7 @@
+services:
+    alfredoramos.imagealt.listener:
+        class: alfredoramos\imagealt\event\listener
+        arguments:
+            - '@language'
+        tags:
+            - { name: event.listener }
