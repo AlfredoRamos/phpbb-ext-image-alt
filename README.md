@@ -25,7 +25,7 @@ Image Alternate Text extension for phpBB.
 Allows you to set alternate text to image tags. Example:
 
 **BBCode input**
-```bbcode
+```
 [img alt="text"]url[/img]
 ```
 
