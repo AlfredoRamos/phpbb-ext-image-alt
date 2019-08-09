@@ -41,6 +41,10 @@ ___
 <img src="url" class="postimage" alt="text">
 ```
 
+### Configuration
+
+It doesn’t require any configuration.
+
 ### Uninstallation
 
 - Go to your `Administration Control Panel` > `Customize` > `Manage extensions`
