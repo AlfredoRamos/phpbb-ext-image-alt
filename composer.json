@@ -4,7 +4,7 @@
 	"description": "Image Alternate Text extension for phpBB",
 	"homepage": "https://github.com/AlfredoRamos/phpbb-ext-image-alt",
 	"version": "0.1.0-dev",
-	"time": "2019-07-31",
+	"time": "2019-08-09",
 	"keywords": ["phpbb", "extension", "image", "alternate-text"],
 	"license": "GPL-2.0-only",
 	"authors": [
