@@ -65,8 +65,8 @@ class listener implements EventSubscriberInterface
 			// Configure image alternate text
 			$alt = $configurator->tags['IMG']->attributes->add('alt');
 			$alt->required = false;
-			$alt->filterChain->prepend('#regexp')->setRegexp('/\\S/');
 			$alt->defaultValue = $this->language->lang('IMAGE');
+			$alt->filterChain->prepend('#regexp')->setRegexp('/\\S/');
 		}
 
 		// Get image template for DOM manipulation
