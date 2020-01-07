@@ -18,7 +18,7 @@ class listener_test extends phpbb_test_case
 {
 	protected $language;
 
-	public function setUp()
+	public function setUp(): void
 	{
 		parent::setUp();
 
