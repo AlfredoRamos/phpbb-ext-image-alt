@@ -60,9 +60,15 @@ If you like or found my work useful and want to show some appreciation, you can 
 - Go to your `Administration Control Panel` > `Customize` > `Manage extensions`
 - Click on `Enable` and confirm
 
+### Preview
+
 ### Configuration
 
 It doesn’t require any configuration.
+
+[![Image Alternate Text preview](https://i.imgur.com/yLgDJpGb.png)](https://i.imgur.com/yLgDJpG.png)
+
+*(Click to view in full size)*
 
 ### Uninstallation
 
