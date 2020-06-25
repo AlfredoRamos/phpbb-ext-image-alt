@@ -7,22 +7,7 @@ Image Alternate Text extension for phpBB.
 [![Code Quality](https://img.shields.io/codacy/grade/f06ec0db39c049fc8883b6c65e10405a.svg?style=flat-square)](https://app.codacy.com/manual/AlfredoRamos/phpbb-ext-image-alt/dashboard)
 [![License](https://img.shields.io/github/license/AlfredoRamos/phpbb-ext-image-alt.svg?style=flat-square)](https://raw.githubusercontent.com/AlfredoRamos/phpbb-ext-image-alt/master/license.txt)
 
-### Dependencies
-
-- PHP 7.1.3 or greater
-- phpBB 3.3 or greater
-
-### Installation
-
-- Download the [latest release](https://github.com/AlfredoRamos/phpbb-ext-image-alt/releases)
-- Decompress the `*.zip` or `*.tar.gz` file
-- Copy the files and directories inside `{PHPBB_ROOT}/ext/alfredoramos/imagealt/`
-- Go to your `Administration Control Panel` > `Customize` > `Manage extensions`
-- Click on `Enable` and confirm
-
-### Usage
-
-Allows you to set alternate text to image tags. Example:
+Allows you to set alternate text to image tags to abide SEO recommendations.
 
 **BBCode input**
 ```
@@ -40,6 +25,40 @@ ___
 ```html
 <img src="url" class="postimage" alt="text">
 ```
+
+### Features
+
+- It doesn't require additional configuration
+- Compatibility with [Markdown](https://github.com/AlfredoRamos/phpbb-ext-markdown) extension
+- Full support for Unicode text, including emojis
+- The engine sanitizes the text, so no unsafe text is used
+
+### Requirements
+
+- PHP 7.1.3 or greater
+- phpBB 3.3 or greater
+
+### Support
+
+- [**Download page**](https://www.phpbb.com/customise/db/extension/image_alternate_text/)
+- [Support area](https://www.phpbb.com/customise/db/extension/image_alternate_text/support)
+- [GitHub issues](https://github.com/AlfredoRamos/phpbb-ext-image-alt/issues)
+
+### Donate
+
+If you like or found my work useful and want to show some appreciation, you can consider supporting its development by giving a donation.
+
+[![Donate with PayPal](https://alfredoramos.github.io/assets/images/donate.png)](https://alfredoramos.github.io/donate/)
+
+[![Donate with PayPal](https://www.paypalobjects.com/webstatic/i/logo/rebrand/ppcom.svg)](https://alfredoramos.github.io/donate/)
+
+### Installation
+
+- Download the [latest release](https://github.com/AlfredoRamos/phpbb-ext-image-alt/releases)
+- Decompress the `*.zip` or `*.tar.gz` file
+- Copy the files and directories inside `{PHPBB_ROOT}/ext/alfredoramos/imagealt/`
+- Go to your `Administration Control Panel` > `Customize` > `Manage extensions`
+- Click on `Enable` and confirm
 
 ### Configuration
 
