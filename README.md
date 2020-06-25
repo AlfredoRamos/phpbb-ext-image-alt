@@ -4,7 +4,7 @@ Image Alternate Text extension for phpBB.
 
 [![Build Status](https://img.shields.io/travis/com/AlfredoRamos/phpbb-ext-image-alt.svg?style=flat-square)](https://travis-ci.com/AlfredoRamos/phpbb-ext-image-alt)
 [![Latest Stable Version](https://img.shields.io/github/tag/AlfredoRamos/phpbb-ext-image-alt.svg?label=stable&style=flat-square)](https://github.com/AlfredoRamos/phpbb-ext-image-alt/releases)
-[![Code Quality](https://img.shields.io/codefactor/grade/github/AlfredoRamos/phpbb-ext-image-alt.svg?style=flat-square)](https://www.codefactor.io/repository/github/alfredoramos/phpbb-ext-image-alt)
+[![Code Quality](https://img.shields.io/codacy/grade/f06ec0db39c049fc8883b6c65e10405a.svg?style=flat-square)](https://app.codacy.com/manual/AlfredoRamos/phpbb-ext-image-alt/dashboard)
 [![License](https://img.shields.io/github/license/AlfredoRamos/phpbb-ext-image-alt.svg?style=flat-square)](https://raw.githubusercontent.com/AlfredoRamos/phpbb-ext-image-alt/master/license.txt)
 
 ### Dependencies
