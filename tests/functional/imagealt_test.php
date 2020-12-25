@@ -9,22 +9,19 @@
 
 namespace alfredoramos\imagealt\tests\functional;
 
-use phpbb_functional_test_case;
-
 /**
  * @group functional
  */
-class imageatl_test extends phpbb_functional_test_case
+class imageatl_test extends \phpbb_functional_test_case
 {
 	static protected function setup_extensions()
 	{
 		return ['alfredoramos/imagealt'];
 	}
 
-	public function setUp(): void
+	protected function setUp(): void
 	{
 		parent::setUp();
-
 		$this->login();
 	}
 
@@ -58,7 +55,7 @@ EOT;
 		$elements = $result->filter('.postimage');
 
 		$this->assertSame(2, $elements->count());
-		$this->assertContains($expected, $result->html());
+		$this->assertStringContainsString($expected, $result->html());
 
 		$this->assertSame('Reset the Net', $elements->eq(0)->attr('alt'));
 		$this->assertSame($this->lang('IMAGE'), $elements->eq(1)->attr('alt'));
