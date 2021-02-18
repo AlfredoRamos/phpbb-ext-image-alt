@@ -14,13 +14,13 @@ use phpbb\language\language;
 
 class listener implements EventSubscriberInterface
 {
-	/** @var \phpbb\language\language */
+	/** @var language */
 	protected $language;
 
 	/**
 	 * Listener constructor.
 	 *
-	 * @param \phpbb\language\language $language;
+	 * @param language $language;
 	 *
 	 * @return void
 	 */
