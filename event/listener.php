@@ -34,7 +34,7 @@ class listener implements EventSubscriberInterface
 	 *
 	 * @return array
 	 */
-	public static function getSubscribedEvents()
+	static public function getSubscribedEvents()
 	{
 		return [
 			'core.text_formatter_s9e_configure_after' => 'image_alt'
