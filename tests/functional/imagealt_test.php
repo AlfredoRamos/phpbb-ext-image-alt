@@ -45,7 +45,9 @@ EOT;
 		));
 
 		$expected = <<<EOT
-<img src="https://help.duckduckgo.com/duckduckgo-help-pages/images/fb5a7e58b23313e8c852b2f9ec6a2f6a.png" class="postimage" alt="Reset the Net"><br><br><img src="https://help.duckduckgo.com/duckduckgo-help-pages/images/2291e0a7248ef66e60686f161361f03d.png" class="postimage" alt="Image">
+<img src="https://help.duckduckgo.com/duckduckgo-help-pages/images/fb5a7e58b23313e8c852b2f9ec6a2f6a.png" class="postimage" alt="Reset the Net"><br>
+<br>
+<img src="https://help.duckduckgo.com/duckduckgo-help-pages/images/2291e0a7248ef66e60686f161361f03d.png" class="postimage" alt="Image">
 EOT;
 		$result = $crawler->filter(sprintf(
 			'#post_content%d .content',
