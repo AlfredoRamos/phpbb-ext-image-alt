@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="Image Alternate Text Extension Builder"
 	description="Builds an extension.zip from a git repository" default="all">
+	<property name="env" value="production" />
 	<property name="vendor-name" value="alfredoramos" />
 	<property name="extension-name" value="imagealt" />
 	<!--
@@ -55,7 +56,6 @@
 	<!-- The real packaging -->
 	<target name="package">
 		<echo msg="Extracting ${version}" />
-
 		<phingcall target="git-checkout">
 			<property name="archive-version" value="${version}" />
 		</phingcall>
