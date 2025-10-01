@@ -12,7 +12,7 @@ namespace alfredoramos\imagealt\tests\functional;
 /**
  * @group functional
  */
-class imageatl_test extends \phpbb_functional_test_case
+class imagealt_test extends \phpbb_functional_test_case
 {
 	static protected function setup_extensions()
 	{
